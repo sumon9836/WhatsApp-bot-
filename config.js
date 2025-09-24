@@ -38,7 +38,7 @@ module.exports = {
   WARNCOUND: parseInt(process.env.WARNCOUND || '5'),
   BOT_INFO: process.env.BOT_INFO || 'KAISEN-BOT-MD;https://files.catbox.moe/tzdb08.mp4',
   WORKTYPE: process.env.WORKTYPE || 'public',
-  CMD_NAME: process.env.CMD_NAME || '© ᴘσωєʀє∂ ву 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀',
+  CMD_NAME: process.env.CMD_NAME || '×͜×   𝙰𝙻𝙾𝙽𝙴ㅤ𝙱𝙾𝚈    ×͜×',
   PREFIX: process.env.PREFIX || '[.,!]',
   PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'null',
   BOT_PRESENCE: process.env.BOT_PRESENCE || 'unavailable',

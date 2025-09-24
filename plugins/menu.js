@@ -115,7 +115,7 @@ const readMore = String.fromCharCode(8206).repeat(4001);
 function externalMenuPreview(profileImageBuffer, options = {}) {
   return {
     showAdAttribution: true,
-    title: options.title || 'KAISEN-MD',
+    title: options.title || CMD_NAME,
     body: options.body || 'Command Menu',
     thumbnail: profileImageBuffer, // ✅ buffer, not url
     sourceUrl: options.sourceUrl || 'https://whatsapp.com/channel/0029VaAKCMO1noz22UaRdB1Q',
