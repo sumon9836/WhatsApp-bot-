@@ -180,7 +180,7 @@ ${readMore}
   menuText += `\n> *${CMD_NAME}*`;
 const text = menuText;
   try {
-    const menuImagePath = path.join(__dirname, "../media/tools/menu1.jpg");
+    const menuImagePath = path.join(__dirname, "../menu1.jpg");
     if (fs.existsSync(menuImagePath)) {
       const buffer = fs.readFileSync(menuImagePath);
       await message.client.sendMessage(message.jid, {
